@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>ARBICORP</title>
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="index-ar-en-fr-css/style.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.6/css/flag-icon.min.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="https://fonts.googleapis.com/css?family=loto|poppins&display=swap" href="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome CDN Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="footer-css/style.css" />
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">ARBICORP</a>
+
+        <nav class="navbar">
+
+
+            <a href="#"><i class='bx bx-home-alt'></i> home </a>
+            <a href="#"><i class='bx bx-hard-hat'></i> about us </a>
+            <a href="#"><i class='bx bx-chat'></i> contact </a>
+            <a href="#"><i class='bx bxs-chalkboard'></i> Consultation </a>
+<a href="#"><i class='bx bx-user-pin'></i> serch </a>
+<a href="#"><i class='bx bx-slideshow'></i> Live Chat </a>
+            <!-- زر اختيار اللغة -->
+            <div class="lang-menu">
+                <button class="lang-button" onclick="toggleDropdown()">
+                    <span class="flag-icon flag-icon-us"></span>
+                </button>
+                <div class="dropdown" id="langDropdown">
+                    <a href="index-ar.html"><span class="flag-icon flag-icon-dz"></span> العربية</a>
+                    <a href="index.html"><span class="flag-icon flag-icon-us"></span> English</a>
+
+                </div>
+            </div>
+
+        </nav>
+
+        <div class="social-media">
+            <a href="#"><i class='bx bxl-tiktok'></i></a>
+            <a href="#"><i class='bx bxl-youtube' ></i></a>
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+        </div>
+    </header>
+
+
+    <div class="image-container">
+        <div class="overlay">
+            <div class="text">
+                <p>
+Your business deserves legal protection that matches its ambitions.
+We offer tailored legal services—from solid contracts and expert consultations to compliance, internal investigations, and corporate rescue—so you can focus on growth with peace of mind.<br>-<i class='bx bx-broadcast'></i>-
+</p>
+            </div>
+            <div class="search-container">
+         <input type="text" class="search-input" id="searchBox" placeholder="">
+         <span class="search-icon">🔍</span>
+         <ul id="suggestions"></ul> <!-- قائمة الاقتراحات -->
+     </div>
+
+</div>
+    </div>
+
+
+
+    <div class="box-container12">
+  <h5> Customization <i class='bx bx-edit-alt' ></i>  </h5>
+  <h5> Reliability <i class='bx bxs-id-card' ></i></h5>
+    <h5>  Security  <i class='bx bx-shield-alt-2' ></i></h5>
+    <h5>  Protection  <i class='bx bx-error-alt' ></i></h5>
+      <h5> Smoothness <i class='bx bx-notepad'></i></h5>
+
+    </div>
+
+
+
+    <section class="price-comparison">
+      <div class="price-column2" style="border-radius: 20px;">
+        <div class="price-header">
+          <div class="price">
+            <div class="dollar-sign">Remote Legal Consultation. <i class='bx bx-notepad'></i></div>
+          </div>
+        </div>
+    <div class="divider"></div>
+        <div class="feature">
+          <img src="check-circle.svg">
+        Direct communication with a specialized lawyer via phone or video
+        </div>
+        <div class="feature">
+          <img src="check-circle.svg">
+          Quick answers to your legal inquiries
+        </div>
+
+        <div class="feature">
+          <img src="check-circle.svg">
+          Flexible scheduling based on your availability
+        </div>
+
+        <div class="feature">
+          <img src="check-circle.svg">
+          Ideal service for companies located remotely or with limited time
+        </div>
+
+        <button class="cta" onclick="location.href='service-index/test.html';">Start Today    <i class='bx bxs-log-in-circle'></i></button>
+      </div>
+      <div class="price-column2" style="border-radius: 20px;">
+        <div class="price-header">
+          <div class="price">
+            <div class="dollar-sign">Mobile Office Consultation. <i class='bx bx-buildings'></i></div>
+          </div>
+        </div>
+    <div class="divider"></div>
+        <div class="feature">
+          <img src="check-circle.svg">
+        A lawyer comes to your company’s location or a place of your choice
+        </div>
+        <div class="feature">
+          <img src="check-circle.svg">
+          Legal consultation provided in your actual work environment
+        </div>
+
+        <div class="feature">
+          <img src="check-circle.svg">
+          On-site review of files and documents within your premises
+        </div>
+
+        <div class="feature">
+          <img src="check-circle.svg">
+          Saves time and effort for business owners
+        </div>
+
+        <button class="cta" onclick="location.href='service-index/Arbitration.html';">Start Today    <i class='bx bxs-log-in-circle'></i></button>
+      </div>
+
+    </div>
+    </section>
+
+
+    <section class="price-comparison">
+      <div class="price-column" style="border-radius: 20px;">
+        <div class="price-header">
+          <div class="price">
+            <div class="dollar-sign">Request to Establish a New Company <i class='bx bx-book-content'></i></div>
+          </div>
+        </div>
+<div class="divider"></div>
+        <div class="feature">
+          <img src="check-circle.svg">
+      Legal consultation on the best type of company to establish<br>
+        </div>
+        <div class="feature">
+          <img src="check-circle.svg">
+          Obtaining required licenses and permits from government authorities
+
+
+        </div>
+
+        <div class="feature">
+          <img src="check-circle.svg">
+        Choosing and officially registering the company name
+        </div>
+
+        <div class="feature">
+          <img src="check-circle.svg">
+          Company formation from scratch on your behalf through a power of attorney contract
+        </div>
+
+        <button class="cta" onclick="location.href='service-index/Arbitration.html';">Start Today    <i class='bx bxs-log-in-circle'></i></button>
+      </div>
+      <div class="price-column" style="border-radius: 20px;">
+        <div class="price-header">
+          <div class="price">
+            <div class="dollar-sign">Internal Corruption Investigation  <i class='bx bx-check-shield'></i></div>
+          </div>
+        </div>
+  <div class="divider"></div>
+        <div class="feature">
+          <img src="check-circle.svg">
+      Conducting confidential internal investigations to uncover cases of corruption
+        </div>
+        <div class="feature">
+          <img src="check-circle.svg">
+
+Supporting the company in crisis management and handling the aftermath of corruption
+        </div>
+
+        <div class="feature">
+          <img src="check-circle.svg">
+          Offering recommendations to improve internal control systems to prevent future corruption
+        </div>
+
+        <div class="feature">
+          <img src="check-circle.svg">
+          Collaborating with relevant authorities when legal procedures are required
+        </div>
+
+        <button class="cta" onclick="location.href='service-index/text.html';">Start Today   <i class='bx bxs-log-in-circle'></i></button>
+      </div>
+      <div class="price-column" style="border-radius: 20px;">
+        <div class="price-header">
+          <div class="price">
+            <div class="dollar-sign">Corporate Legal Rescue <i class='bx bx-shield-plus'></i></div>
+          </div>
+        </div>
+<div class="divider"></div>
+        <div class="feature">
+          <img src="check-circle.svg">
+
+  Developing strategies for restructuring the company in the face of legal challenges
+        </div>
+        <div class="feature">
+          <img src="check-circle.svg">
+          Defending the company against lawsuits or significant legal issues
+        </div>
+
+        <div class="feature">
+          <img src="check-circle.svg">
+          Working to protect the company’s interests and maintain its legal reputation
+        </div>
+
+        <div class="feature">
+          <img src="check-circle.svg">
+        Providing rapid legal support in times of legal crises
+        </div>
+
+        <button class="cta" onclick="location.href='service-index/Arbitration.html';">Start Today   <i class='bx bxs-log-in-circle'></i></button>
+      </div>
+
+
+ </div>
+</section>
+
+
+
+    <footer>
+      <div class="container">
+        <div class="wrapper">
+          <div class="footer-widget">
+            <a href="#">
+              <img src="images/logo.png" class="logo" />
+            </a>
+            <p class="desc">
+
+  "We are here to turn legal challenges into opportunities and protect your company from any crisis it may fac.
+            </p>
+            <ul class="socials">
+              <li>
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-widget">
+            <h6>Quick Link</h6>
+            <ul class="links">
+              <li><a href="#">home</a></li>
+              <li><a href="#">about</a></li>
+              <li><a href="#">contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-widget">
+            <h6>Services</h6>
+            <ul class="links">
+              <li><a href="#">Remote Legal Consultation</a></li>
+              <li><a href="#">Mobile Office Consultation</a></li>
+              <li><a href="#">Request to Establish a New Company</a></li>
+              <li><a href="#">Internal Corruption Investigation</a></li>
+              <li><a href="#">Corporate Legal Rescue</a></li>
+            </ul>
+          </div>
+          <div class="footer-widget">
+            <h6>Help &amp; Support</h6>
+            <ul class="links">
+              <li><a href="#">support center</a></li>
+              <li><a href="#">live chat</a></li>
+              <li><a href="#">terms &amp; conditions</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright-wrapper">
+          <p>
+            Design and Developed by
+            <a href="#">kitouni abdelhamid</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+    <script>
+        function toggleDropdown() {
+            document.getElementById("langDropdown").classList.toggle("show");
+        }
+
+        // إغلاق القائمة عند الضغط خارجها
+        window.onclick = function(event) {
+            if (!event.target.closest('.lang-menu')) {
+                document.getElementById("langDropdown").classList.remove("show");
+            }
+        }
+    </script>
+ <script src="script/script.js"></script> <!-- ربط ملف JavaScript -->
+</body>
+</html>
